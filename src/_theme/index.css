@@ -226,7 +226,7 @@
     width: 100px;
     height: 100px;
     margin: 110px;
-    margin-top: 16rem;
+    margin-top: 8rem;
     font-size: 50px;
 }
 
@@ -234,9 +234,32 @@
     font-size: 50px;
     border: 1px solid red;
     background-color: red;
-    width: 15%;
 }
 
 .playPosition {
     text-align: center;
+    padding-bottom: 20px;
+}
+
+.arrow {
+    width: 100px;
+    height: auto;
+    transform: rotate(180deg);
+}
+
+.arrowPosition {
+    float: right;
+    margin-top: -18.5rem;
+}
+
+.lvlh1 {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+.hide {
+    font-size: 94px;
+    text-align: center;
+    opacity: 0%;
 }

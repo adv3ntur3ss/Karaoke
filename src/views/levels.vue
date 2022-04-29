@@ -13,6 +13,11 @@
                <button class="lvl">3</button>
                <button class="lvl">4</button>
                <button class="lvl">5</button>
+               <button class="lvl">6</button>
+               <button class="lvl">7</button>
+               <button class="lvl">8</button>
+               <button class="lvl">9</button>
+               <button class="lvl">10</button>
               </div>
               <div class="playPosition">
               <button class="play">PLAY</button>
@@ -35,7 +40,7 @@ export default{
    methods:{
      green(){
         var g = document.getElementById("gr");
-        g.style.background = ("green")
+        g.style.background = ("green");
      }
    }
 }

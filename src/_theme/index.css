@@ -1,15 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 .rgb-background {
-    background: linear-gradient(
-      -45deg,
-      rgb(243, 63, 153),
-      #bd2672,
-      #96068e,
-      #6e0660
-    );
+    background: linear-gradient( -45deg, rgb(243, 63, 153), #bd2672, #96068e, #6e0660);
 }
 
 .note_0 {
@@ -205,4 +198,45 @@
     color: azure;
     padding-top: 4px;
     border-radius: 3px;
+}
+
+.topbanner {
+    position: static;
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+}
+
+.logo {
+    position: static;
+    width: 60px;
+    height: 60px;
+}
+
+.whiteBorder {
+    background-color: white;
+    position: static;
+    margin-top: 2rem;
+}
+
+.lvl {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin: 110px;
+    margin-top: 16rem;
+    font-size: 50px;
+}
+
+.play {
+    font-size: 50px;
+    border: 1px solid red;
+    background-color: red;
+    width: 15%;
+}
+
+.playPosition {
+    text-align: center;
 }

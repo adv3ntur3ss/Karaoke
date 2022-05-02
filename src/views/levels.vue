@@ -8,7 +8,7 @@
         <h1 class="lvlh1">LEVELS</h1>
            <div class="whiteBorder">
               <div class="place">
-               <button class="lvl" id="gr" @click="green()">1</button>
+               <button class="lvl" id="gr" @click="green()">1</button><!-- navrh na aky styl by mohol fungovat FE-->
                <button class="lvl">2</button>
                <button class="lvl">3</button>
                <button class="lvl">4</button>
@@ -17,7 +17,7 @@
                <button class="lvl">7</button>
                <button class="lvl">8</button>
                <button class="lvl">9</button>
-               <button class="lvl">10</button>
+               <button class="lvl tablet">10</button>
               </div>
               <div class="playPosition">
               <button class="play">PLAY</button>

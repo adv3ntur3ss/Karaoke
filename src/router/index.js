@@ -1,5 +1,5 @@
 /* esling-disable */
-import { createRouter, createWebHashHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 import gameplay from "@/views/gameplay.vue";
 import levels from '@/views/levels.vue'
 
@@ -17,8 +17,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
 });
-
 export default router;

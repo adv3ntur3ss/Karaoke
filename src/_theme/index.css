@@ -214,32 +214,36 @@
 }
 
 .whiteBorder {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     position: static;
 }
 
 .lvl {
+    background-color: #e61313;
     position: relative;
     border: 1px solid black;
     border-radius: 100%;
     width: 100px;
     height: 100px;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     margin-left: 10rem;
     font-size: 50px;
+    box-shadow: 9px 8px #0e0d0d;
 }
 
 .play {
+    margin: 1rem 0 3rem 0;
     font-size: 50px;
-    border: 1px solid red;
-    background-color: red;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 10px;
+    background: linear-gradient( -45deg, rgb(243, 63, 153), #bd2672, #96068e, #6e0660);
+    box-shadow: 9px 8px #0e0d0d;
 }
 
 .playPosition {
     text-align: center;
-    margin-top: -2rem;
-    margin-left: -1.5rem;
 }
 
 .arrow {
@@ -257,6 +261,7 @@
     font-size: 100px;
     text-align: center;
     color: white;
+    text-shadow: 7px 7px rgb(33, 31, 31);
 }
 
 .hide {

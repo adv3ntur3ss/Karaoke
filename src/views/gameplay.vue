@@ -2,11 +2,7 @@
   <body class="m-0">
     <div class="container w-screen h-screen font-sans">
       <section class="rgb-background w-screen h-screen flex flex-col">
-        <header class="topbanner">
-          <div class="h-12 w-24">
-            <h4 class="text-center p-3"><img class="logo" src="@/assets/images/logoKaraoke.png"></h4>
-          </div>
-        </header>
+<cHeader/>
         <div class="w-screen h-[150px] py-9 text-center font-semibold text-7xl">
           {{ timerCount }}
         </div>
@@ -64,8 +60,12 @@
 
 <script>
 /* eslint-disable */
+import cHeader from "@/components/header.vue"
 
-export default {
+export default{
+   components:{
+      cHeader
+   },
   data() {
     return {
       timerCount: 3,

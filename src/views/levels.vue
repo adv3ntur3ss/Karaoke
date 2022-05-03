@@ -1,10 +1,6 @@
 <template>
 <body class="rgb-background">
- <header class="topbanner">
-          <div class="h-12 w-24">
-            <h4 class="text-center p-3"><img class="logo" src="@/assets/images/logoKaraoke.png"></h4>
-          </div>
-        </header>
+<cHeader/>
         <h1 class="lvlh1">LEVELS</h1>
            <div class="whiteBorder">
               <div class="place">
@@ -30,8 +26,12 @@
       </body>
 </template>
 <script>
+import cHeader from "@/components/header.vue"
 
 export default{
+   components:{
+      cHeader
+   },
    data(){
       return{
 

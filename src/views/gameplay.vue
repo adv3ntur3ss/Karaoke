@@ -139,7 +139,6 @@ export default {
               this.playback = new Audio(audioUrl)
             }
           }
-          // start
           this.recorder.start()
         })
         .catch((err) => {
@@ -162,24 +161,6 @@ export default {
     listenToRecording() {
       this.playback.play()
     },
-    // stop() {
-    //   // stop
-    //   this.recorder.stop()
-    // },
-
-    // compareSound(){
-    //   var audioCtx = new Audio(require("@/assets/audio/twinkle.mp3"))
-    //   analyser = audioCtx.createAnalyser()
-    //   analyser.fftSize = 1024
-    //   var bufferLength = analyser.frequencyBinCount
-    //   var dataArray = new Uint8Array(bufferLength);
-    //   analyser.getByteTimeDomainData(dataArray);
-    //   setInterval(() => {
-    //     console.log(analyser)
-    //   })
-
-    //   audio.connect(analyser)
-    // },
   },
 }
 </script>

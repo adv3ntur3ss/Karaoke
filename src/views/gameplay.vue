@@ -1,7 +1,7 @@
 <template>
   <body class="m-0">
     <div class="container w-screen h-screen font-sans">
-      <section class="rgb-background w-screen h-screen flex flex-col">
+      <section class="bg-gradient w-screen h-screen flex flex-col">
 <cHeader/>
         <div class="w-screen h-[150px] py-9 text-center font-semibold text-7xl">
           {{ timerCount }}
@@ -13,14 +13,14 @@
 
           <div id="string" class="h-[24px] w-screen my-[8px] py-2 relative">
             <div class="h-[8px] w-screen bg-slate-300"></div>
-            <div ref="movin3" class="note_3">3</div>
-            <div ref="movin2" class="note_3">3</div>
+            <div ref="movin3" class="note_3 note">3</div>
+            <div ref="movin2" class="note_3 note" >3</div>
           </div>
 
           <div id="string" class="h-[24px] w-screen my-[8px] py-2 relative">
             <div class="h-[8px] w-screen bg-slate-300"></div>
-            <div ref="movin0" class="note_0">0</div>
-            <div ref="movin1" class="note_0">0</div>
+            <div ref="movin0" class="note_0 note">0</div>
+            <div ref="movin1" class="note_0 note">0</div>
           </div>
 
           <div id="string" class="h-[24px] w-screen my-[8px] py-2 relative">

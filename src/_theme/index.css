@@ -1,224 +1,107 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.rgb-background {
+.bg-gradient {
     background: linear-gradient( -45deg, rgb(243, 63, 153), #bd2672, #96068e, #6e0660);
+}
+
+.note{
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    display: none;
+    bottom: -4px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding-top: 4px;
+    border-radius: 3px;
 }
 
 .note_0 {
     background-color: rgba(225, 0, 255, 0.815);
-    height: 36px;
-    width: 36px;
-    position: absolute;
-    display: none;
-    bottom: -4px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
     color: azure;
-    padding-top: 4px;
-    border-radius: 3px;
 }
 
 .note_1 {
     background-color: rgb(0, 238, 255);
-    height: 36px;
-    width: 36px;
-    position: absolute;
-    display: none;
-    bottom: -4px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
     color: black;
-    padding-top: 4px;
-    border-radius: 3px;
 }
 
 .note_2 {
     background-color: rgb(0, 255, 179);
-    height: 36px;
-    width: 36px;
-    position: absolute;
-    display: none;
-    bottom: -4px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
     color: black;
-    padding-top: 4px;
-    border-radius: 3px;
 }
 
 .note_3 {
     background-color: rgb(0, 255, 115);
-    height: 36px;
-    width: 36px;
-    position: absolute;
-    display: none;
-    bottom: -4px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
     color: black;
-    padding-top: 4px;
-    border-radius: 3px;
 }
 
 .note_4 {
     background-color: rgb(0, 255, 34);
-    height: 36px;
-    width: 36px;
-    position: absolute;
-    display: none;
-    bottom: -4px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
     color: black;
-    padding-top: 4px;
-    border-radius: 3px;
 }
 
 .note_5 {
     background-color: rgb(36, 156, 0);
-    height: 36px;
-    width: 36px;
-    position: absolute;
-    display: none;
-    bottom: -4px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
     color: azure;
-    padding-top: 4px;
-    border-radius: 3px;
 }
 
 .note_6 {
     background-color: rgb(157, 255, 0);
-    height: 36px;
-    width: 36px;
-    position: absolute;
-    display: none;
-    bottom: -4px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
     color: black;
-    padding-top: 4px;
-    border-radius: 3px;
 }
 
 .note_7 {
     background-color: rgb(255, 251, 0);
-    height: 36px;
-    width: 36px;
-    position: absolute;
-    display: none;
-    bottom: -4px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
     color: black;
-    padding-top: 4px;
-    border-radius: 3px;
 }
 
 .note_8 {
     background-color: rgb(255, 174, 0);
-    height: 36px;
-    width: 36px;
-    position: absolute;
-    display: none;
-    bottom: -4px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
     color: azure;
-    padding-top: 4px;
-    border-radius: 3px;
 }
 
 .note_9 {
     background-color: rgb(255, 115, 0);
-    height: 36px;
-    width: 36px;
-    position: absolute;
-    display: none;
-    bottom: -4px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
     color: azure;
-    padding-top: 4px;
-    border-radius: 3px;
 }
 
 .note_10 {
     background-color: rgb(255, 60, 0);
-    height: 36px;
-    width: 36px;
-    position: absolute;
-    display: none;
-    bottom: -4px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
     color: azure;
-    padding-top: 4px;
-    border-radius: 3px;
 }
 
 .note_11 {
     background-color: rgb(255, 0, 119);
-    height: 36px;
-    width: 36px;
-    position: absolute;
-    display: none;
-    bottom: -4px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
     color: azure;
-    padding-top: 4px;
-    border-radius: 3px;
 }
 
 .note_12 {
     background-color: rgb(255, 0, 0);
-    height: 36px;
-    width: 36px;
-    position: absolute;
-    display: none;
-    bottom: -4px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
     color: azure;
-    padding-top: 4px;
-    border-radius: 3px;
 }
 
-.topbanner {
+.top-banner {
     position: static;
     width: 100%;
-    height: 80px;
+    height: 60px;
     background-color: gray;
 }
 
 .logo {
     position: static;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
+    margin-top: -5px;
 }
 
-.whiteBorder {
+.levels-position-bg {
     background-color: rgb(255, 255, 255);
     position: static;
 }
-
-.lvl {
+.level {
     background-color: #e61313;
     position: relative;
     border: 1px solid black;
@@ -232,7 +115,7 @@
     box-shadow: 9px 8px #0e0d0d;
 }
 
-.play {
+.play-button {
     margin: 1rem 0 3rem 0;
     font-size: 50px;
     border: 2px solid rgb(0, 0, 0);
@@ -241,23 +124,23 @@
     background: linear-gradient( -45deg, rgb(243, 63, 153), #bd2672, #96068e, #6e0660);
     box-shadow: 9px 8px #0e0d0d;
 }
-
-.playPosition {
+.play-button-position{
     text-align: center;
 }
 
-.arrow {
+
+
+.next-levels {
     width: 100px;
     height: auto;
     transform: rotate(180deg);
-}
-
-.arrowPosition {
     float: right;
     margin-top: -18.5rem;
 }
 
-.lvlh1 {
+
+
+.levels-title {
     font-size: 100px;
     text-align: center;
     color: white;
@@ -268,619 +151,4 @@
     font-size: 58px;
     text-align: center;
     opacity: 0%;
-}
-
-
-/* pre mobil*/
-
-@media only screen and (min-width: 280px) {
-    .topbanner {
-        position: static;
-        width: 100%;
-        height: 60px;
-        background-color: gray;
-    }
-    .logo {
-        position: static;
-        width: 40px;
-        height: 40px;
-    }
-    .whiteBorder {
-        background-color: rgb(255, 255, 255);
-        position: static;
-    }
-    .lvl {
-        background-color: #e61313;
-        position: relative;
-        border: 1px solid black;
-        border-radius: 100%;
-        width: 80px;
-        height: 80px;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        text-align: center;
-        left: -1rem;
-        font-size: 50px;
-        box-shadow: 9px 8px #0e0d0d;
-    }
-    .play {
-        margin: 1rem 0 3rem 0;
-        font-size: 50px;
-        border: 2px solid rgb(0, 0, 0);
-        border-radius: 30px;
-        padding: 10px;
-        background: linear-gradient( -45deg, rgb(243, 63, 153), #bd2672, #96068e, #6e0660);
-        box-shadow: 9px 8px #0e0d0d;
-    }
-    .playPosition {
-        text-align: center;
-    }
-    .arrow {
-        width: 100px;
-        height: auto;
-        transform: rotate(180deg);
-    }
-    .arrowPosition {
-        float: right;
-        margin-top: -8.5rem;
-    }
-    .lvlh1 {
-        font-size: 50px;
-        text-align: center;
-        color: white;
-        text-shadow: 7px 7px rgb(33, 31, 31);
-    }
-    .hide {
-        font-size: 60px;
-        text-align: center;
-        opacity: 0%;
-    }
-}
-
-@media only screen and (min-width: 390px) {
-    .topbanner {
-        position: static;
-        width: 100%;
-        height: 60px;
-        background-color: gray;
-    }
-    .logo {
-        position: static;
-        width: 40px;
-        height: 40px;
-    }
-    .whiteBorder {
-        background-color: rgb(255, 255, 255);
-        position: static;
-    }
-    .lvl {
-        background-color: #e61313;
-        position: relative;
-        border: 1px solid black;
-        border-radius: 100%;
-        width: 80px;
-        height: 80px;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        text-align: center;
-        left: 0.1rem;
-        font-size: 50px;
-        box-shadow: 9px 8px #0e0d0d;
-    }
-    .play {
-        margin: 1rem 0 3rem 0;
-        font-size: 50px;
-        border: 2px solid rgb(0, 0, 0);
-        border-radius: 30px;
-        padding: 10px;
-        background: linear-gradient( -45deg, rgb(243, 63, 153), #bd2672, #96068e, #6e0660);
-        box-shadow: 9px 8px #0e0d0d;
-    }
-    .playPosition {
-        text-align: center;
-    }
-    .arrow {
-        width: 100px;
-        height: auto;
-        transform: rotate(180deg);
-    }
-    .arrowPosition {
-        float: right;
-        margin-top: -8.5rem;
-    }
-    .lvlh1 {
-        font-size: 50px;
-        text-align: center;
-        color: white;
-        text-shadow: 7px 7px rgb(33, 31, 31);
-    }
-    .hide {
-        font-size: 60px;
-        text-align: center;
-        opacity: 0%;
-    }
-}
-
-
-/* pre tablet*/
-
-@media only screen and (min-width: 540px) {
-    .topbanner {
-        position: static;
-        width: 100%;
-        height: 80px;
-        background-color: gray;
-    }
-    .logo {
-        position: static;
-        width: 60px;
-        height: 60px;
-    }
-    .whiteBorder {
-        background-color: rgb(255, 255, 255);
-        position: static;
-        margin-top: 8rem;
-    }
-    .lvl {
-        background-color: #e61313;
-        position: relative;
-        border: 1px solid black;
-        border-radius: 100%;
-        width: 80px;
-        height: 80px;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        text-align: center;
-        left: -3rem;
-        font-size: 50px;
-        box-shadow: 9px 8px #0e0d0d;
-    }
-    .play {
-        margin: 1rem 0 3rem 0;
-        font-size: 50px;
-        border: 2px solid rgb(0, 0, 0);
-        border-radius: 30px;
-        padding: 10px;
-        background: linear-gradient( -45deg, rgb(243, 63, 153), #bd2672, #96068e, #6e0660);
-        box-shadow: 9px 8px #0e0d0d;
-    }
-    .playPosition {
-        text-align: center;
-        margin-left: 1.5rem;
-    }
-    .arrow {
-        width: 100px;
-        height: auto;
-        transform: rotate(180deg);
-    }
-    .arrowPosition {
-        float: right;
-        margin-top: -8.5rem;
-    }
-    .lvlh1 {
-        font-size: 100px;
-        height: 40px;
-        text-align: center;
-        color: white;
-        text-shadow: 7px 7px rgb(33, 31, 31);
-    }
-    .hide {
-        font-size: 120px;
-        text-align: center;
-        opacity: 0%;
-    }
-}
-
-@media only screen and (min-width: 760px) {
-    .topbanner {
-        position: static;
-        width: 100%;
-        height: 80px;
-        background-color: gray;
-    }
-    .logo {
-        position: static;
-        width: 60px;
-        height: 60px;
-    }
-    .whiteBorder {
-        background-color: rgb(255, 255, 255);
-        position: static;
-        margin-top: 8rem;
-    }
-    .lvl {
-        background-color: #e61313;
-        position: relative;
-        border: 1px solid black;
-        border-radius: 100%;
-        width: 80px;
-        height: 80px;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        text-align: center;
-        left: -3rem;
-        font-size: 50px;
-        box-shadow: 9px 8px #0e0d0d;
-    }
-    .play {
-        margin: 1rem 0 3rem 0;
-        font-size: 50px;
-        border: 2px solid rgb(0, 0, 0);
-        border-radius: 30px;
-        padding: 10px;
-        background: linear-gradient( -45deg, rgb(243, 63, 153), #bd2672, #96068e, #6e0660);
-        box-shadow: 9px 8px #0e0d0d;
-    }
-    .playPosition {
-        text-align: center;
-        margin-left: 1.5rem;
-    }
-    .arrow {
-        width: 100px;
-        height: auto;
-        transform: rotate(180deg);
-    }
-    .arrowPosition {
-        float: right;
-        margin-top: -8.5rem;
-    }
-    .lvlh1 {
-        font-size: 100px;
-        height: 40px;
-        text-align: center;
-        color: white;
-        text-shadow: 7px 7px rgb(33, 31, 31);
-    }
-    .hide {
-        font-size: 120px;
-        text-align: center;
-        opacity: 0%;
-    }
-    .tablet {
-        margin-left: 25.1rem;
-    }
-}
-
-@media only screen and (min-width: 820px) {
-    .topbanner {
-        position: static;
-        width: 100%;
-        height: 80px;
-        background-color: gray;
-    }
-    .logo {
-        position: static;
-        width: 60px;
-        height: 60px;
-    }
-    .whiteBorder {
-        background-color: rgb(255, 255, 255);
-        position: static;
-        margin-top: 8rem;
-    }
-    .lvl {
-        background-color: #e61313;
-        position: relative;
-        border: 1px solid black;
-        border-radius: 100%;
-        width: 80px;
-        height: 80px;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        text-align: center;
-        left: -3rem;
-        font-size: 50px;
-        box-shadow: 9px 8px #0e0d0d;
-    }
-    .play {
-        margin: 1rem 0 3rem 0;
-        font-size: 50px;
-        border: 2px solid rgb(0, 0, 0);
-        border-radius: 30px;
-        padding: 10px;
-        background: linear-gradient( -45deg, rgb(243, 63, 153), #bd2672, #96068e, #6e0660);
-        box-shadow: 9px 8px #0e0d0d;
-    }
-    .playPosition {
-        text-align: center;
-        margin-left: -1rem;
-    }
-    .arrow {
-        width: 100px;
-        height: auto;
-        transform: rotate(180deg);
-    }
-    .arrowPosition {
-        float: right;
-        margin-top: -8.5rem;
-    }
-    .lvlh1 {
-        font-size: 100px;
-        height: 100px;
-        text-align: center;
-        color: white;
-        text-shadow: 7px 7px rgb(33, 31, 31);
-    }
-    .hide {
-        font-size: 120px;
-        text-align: center;
-        opacity: 0%;
-    }
-    .tablet {
-        margin-left: 25.1rem;
-    }
-}
-
-@media only screen and (min-width: 910px) {
-    .topbanner {
-        position: static;
-        width: 100%;
-        height: 100px;
-        background-color: gray;
-    }
-    .logo {
-        position: static;
-        width: 70px;
-        height: 70px;
-    }
-    .whiteBorder {
-        background-color: rgb(255, 255, 255);
-        position: static;
-        margin-top: 8rem;
-    }
-    .lvl {
-        background-color: #e61313;
-        position: relative;
-        border: 1px solid black;
-        border-radius: 100%;
-        width: 80px;
-        height: 80px;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        text-align: center;
-        left: 1rem;
-        font-size: 50px;
-        box-shadow: 9px 8px #0e0d0d;
-    }
-    .play {
-        margin: 1rem 0 3rem 0;
-        font-size: 50px;
-        border: 2px solid rgb(0, 0, 0);
-        border-radius: 30px;
-        padding: 10px;
-        background: linear-gradient( -45deg, rgb(243, 63, 153), #bd2672, #96068e, #6e0660);
-        box-shadow: 9px 8px #0e0d0d;
-    }
-    .playPosition {
-        text-align: center;
-        margin-left: -1rem;
-    }
-    .arrow {
-        width: 100px;
-        height: auto;
-        transform: rotate(180deg);
-    }
-    .arrowPosition {
-        float: right;
-        margin-top: -8.5rem;
-    }
-    .lvlh1 {
-        font-size: 100px;
-        height: 100px;
-        text-align: center;
-        color: white;
-        text-shadow: 7px 7px rgb(33, 31, 31);
-    }
-    .hide {
-        font-size: 200px;
-        text-align: center;
-        opacity: 0%;
-    }
-    .tablet {
-        margin-left: 25.1rem;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .topbanner {
-        position: static;
-        width: 100%;
-        height: 100px;
-        background-color: gray;
-    }
-    .logo {
-        position: static;
-        width: 70px;
-        height: 70px;
-    }
-    .whiteBorder {
-        background-color: rgb(255, 255, 255);
-        position: static;
-        margin-top: 6rem;
-    }
-    .lvl {
-        background-color: #e61313;
-        position: relative;
-        border: 1px solid black;
-        border-radius: 100%;
-        width: 80px;
-        height: 80px;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        text-align: center;
-        margin: 3rem;
-        left: 1rem;
-        font-size: 50px;
-        box-shadow: 9px 8px #0e0d0d;
-    }
-    .play {
-        margin: 1rem 0 3rem 0;
-        font-size: 50px;
-        border: 2px solid rgb(0, 0, 0);
-        border-radius: 30px;
-        padding: 10px;
-        background: linear-gradient( -45deg, rgb(243, 63, 153), #bd2672, #96068e, #6e0660);
-        box-shadow: 9px 8px #0e0d0d;
-    }
-    .playPosition {
-        text-align: center;
-        margin-left: -1rem;
-    }
-    .arrow {
-        width: 100px;
-        height: auto;
-        transform: rotate(180deg);
-    }
-    .arrowPosition {
-        float: right;
-        margin-top: -8.5rem;
-    }
-    .lvlh1 {
-        font-size: 100px;
-        height: 100px;
-        text-align: center;
-        color: white;
-        text-shadow: 7px 7px rgb(33, 31, 31);
-    }
-    .hide {
-        font-size: 80px;
-        text-align: center;
-        opacity: 0%;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .topbanner {
-        position: static;
-        width: 100%;
-        height: 100px;
-        background-color: gray;
-    }
-    .logo {
-        position: static;
-        width: 70px;
-        height: 70px;
-    }
-    .whiteBorder {
-        background-color: rgb(255, 255, 255);
-        position: static;
-        margin-top: 6rem;
-    }
-    .lvl {
-        background-color: #e61313;
-        position: relative;
-        border: 1px solid black;
-        border-radius: 100%;
-        width: 80px;
-        height: 80px;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        text-align: center;
-        margin: 5rem;
-        left: 1rem;
-        font-size: 50px;
-        box-shadow: 9px 8px #0e0d0d;
-    }
-    .play {
-        margin: 1rem 0 3rem 0;
-        font-size: 50px;
-        border: 2px solid rgb(0, 0, 0);
-        border-radius: 30px;
-        padding: 10px;
-        background: linear-gradient( -45deg, rgb(243, 63, 153), #bd2672, #96068e, #6e0660);
-        box-shadow: 9px 8px #0e0d0d;
-    }
-    .playPosition {
-        text-align: center;
-        margin-left: -1rem;
-    }
-    .arrow {
-        width: 100px;
-        height: auto;
-        transform: rotate(180deg);
-    }
-    .arrowPosition {
-        float: right;
-        margin-top: -8.5rem;
-    }
-    .lvlh1 {
-        font-size: 100px;
-        height: 100px;
-        text-align: center;
-        color: white;
-        text-shadow: 7px 7px rgb(33, 31, 31);
-    }
-    .hide {
-        font-size: 80px;
-        text-align: center;
-        opacity: 0%;
-    }
-}
-
-@media only screen and (min-width: 1800px) {
-    .topbanner {
-        position: static;
-        width: 100%;
-        height: 100px;
-        background-color: gray;
-    }
-    .logo {
-        position: static;
-        width: 70px;
-        height: 70px;
-    }
-    .whiteBorder {
-        background-color: rgb(255, 255, 255);
-        position: static;
-        margin-top: 6rem;
-    }
-    .lvl {
-        background-color: #e61313;
-        position: relative;
-        border: 1px solid black;
-        border-radius: 100%;
-        width: 80px;
-        height: 80px;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        text-align: center;
-        margin: 8rem;
-        left: 1rem;
-        font-size: 50px;
-        box-shadow: 9px 8px #0e0d0d;
-    }
-    .play {
-        margin: 1rem 0 3rem 0;
-        font-size: 50px;
-        border: 2px solid rgb(0, 0, 0);
-        border-radius: 30px;
-        padding: 10px;
-        background: linear-gradient( -45deg, rgb(243, 63, 153), #bd2672, #96068e, #6e0660);
-        box-shadow: 9px 8px #0e0d0d;
-    }
-    .playPosition {
-        text-align: center;
-        margin-left: -1rem;
-    }
-    .arrow {
-        width: 100px;
-        height: auto;
-        transform: rotate(180deg);
-    }
-    .arrowPosition {
-        float: right;
-        margin-top: -8.5rem;
-    }
-    .lvlh1 {
-        font-size: 100px;
-        height: 100px;
-        text-align: center;
-        color: white;
-        text-shadow: 7px 7px rgb(33, 31, 31);
-    }
-    .hide {
-        font-size: 80px;
-        text-align: center;
-        opacity: 0%;
-    }
 }

@@ -1,29 +1,26 @@
 <template>
-<body class="rgb-background">
+<div class="bg-gradient">
 <cHeader/>
-        <h1 class="lvlh1">LEVELS</h1>
-           <div class="whiteBorder">
-              <div class="place">
-               <button class="lvl" id="gr" @click="green()">1</button><!-- navrh na aky styl by mohol fungovat FE-->
-               <button class="lvl">2</button>
-               <button class="lvl">3</button>
-               <button class="lvl">4</button>
-               <button class="lvl">5</button>
-               <button class="lvl">6</button>
-               <button class="lvl">7</button>
-               <button class="lvl">8</button>
-               <button class="lvl">9</button>
-               <button class="lvl tablet">10</button>
+        <h1 class="levels-title">LEVELS</h1>
+           <div class="levels-position-bg">
+               <button class="level" id="gr" @click="green()">1</button><!-- navrh na aky styl by mohol fungovat FE-->
+               <button class="level">2</button>
+               <button class="level">3</button>
+               <button class="level">4</button>
+               <button class="level">5</button>
+               <button class="level">6</button>
+               <button class="level">7</button>
+               <button class="level">8</button>
+               <button class="level">9</button>
+               <button class="level tablet">10</button>
               </div>
-              <div class="playPosition">
-              <button class="play">PLAY</button>
-              </div>
+              <div class="play-button-position">
+               <button class="play-button">PLAY</button>
+               </div>
+
            </div>
-           <div class="arrowPosition">
-              <a href=""><img class="arrow" src="@/assets/images/arrow.png"></a>
-           </div>
-         <h1 class="hide">.</h1>
-      </body>
+      
+              <img class="next-levels" src="@/assets/images/arrow.png">
 </template>
 <script>
 import cHeader from "@/components/header.vue"

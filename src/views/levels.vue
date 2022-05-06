@@ -35,8 +35,7 @@ export default{
       }
    },
    methods:{
-     green(){
-        var g = document.getElementById("gr");
+     green(g){
         g.style.background = ("green");
      }
    }

@@ -1,48 +1,56 @@
 <template>
-<body class="rgb-background">
-<cHeader/>
-        <h1 class="lvlh1">LEVELS</h1>
-           <div class="whiteBorder">
-              <div class="place">
-               <button class="lvl" ref="gr1" @click="green(this.$refs.gr1)">1</button>
-               <button class="lvl" ref="gr2" @click="green(this.$refs.gr2)">2</button>
-               <button class="lvl" ref="gr3" @click="green(this.$refs.gr3)">3</button>
-               <button class="lvl" ref="gr4" @click="green(this.$refs.gr4)">4</button>
-               <button class="lvl" ref="gr5" @click="green(this.$refs.gr5)">5</button>
-               <button class="lvl" ref="gr6" @click="green(this.$refs.gr6)">6</button>
-               <button class="lvl" ref="gr7" @click="green(this.$refs.gr7)">7</button>
-               <button class="lvl" ref="gr8" @click="green(this.$refs.gr8)">8</button>
-               <button class="lvl" ref="gr9" @click="green(this.$refs.gr9)">9</button>
-               <button class="lvl tablet" ref="gr10" @click="green(this.$refs.gr10)">10</button>
-              </div>
-              <div class="playPosition">
-              <button class="play">PLAY</button>
-              </div>
-           </div>
-           <div class="arrowPosition">
-              <a href=""><img class="arrow" src="@/assets/images/arrow.png"></a>
-           </div>
-         <h1 class="hide">.</h1>
-      </body>
+  <body class="rgb-background">
+    <LayoutHeader />
+    <h1 class="lvlh1">LEVELS</h1>
+    <div class="whiteBorder">
+      <div class="place">
+          <button v-for="(item, index) in levels" :key="item.id"
+            class="lvl"
+            :class="{green: isActive=1}"
+            @click="isActive=1"
+          >
+          {{index+1}}
+          </button>
+      </div>
+      <div class="playPosition">
+        <button class="play">PLAY</button>
+      </div>
+    </div>
+    <div class="arrowPosition">
+      <a><img class="arrow" src="@/assets/images/arrow.png" /></a>
+    </div>
+    <h1 class="hide">.</h1>
+  </body>
 </template>
 <script>
-import cHeader from "@/components/header.vue"
+import LayoutHeader from "@/components/header.vue"
 
-export default{
-   components:{
-      cHeader
-   },
-   data(){
-      return{
-
-      }
-   },
-   methods:{
-     green(g){
-        g.style.background = ("green");
-     }
-   }
+export default {
+  data() {
+    return {
+      isActive: false,
+      levelNumber: 1,
+      levels: [
+        { number: 1 },
+        { number: 2 },
+        { number: 3 },
+        { number: 4 },
+        { number: 5 },
+        { number: 6 },
+        { number: 7 },
+        { number: 8 },
+        { number: 9 },
+        { number: 10 },
+      ],
+    }
+  },
+  components: {
+    LayoutHeader,
+  },
+  methods: {
+    changeColor(g) {
+      g.style.background = "changeColor"
+    },
+  },
 }
-
-/* eslint-disable */
 </script>

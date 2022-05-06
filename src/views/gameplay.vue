@@ -12,13 +12,13 @@
           ></div>
 
           <String>
-            <div ref="movin3" class="note_3">3</div>
-            <div ref="movin2" class="note_3">3</div>
+            <div ref="movin3" class="note_3 note">3</div>
+            <div ref="movin2" class="note_3 note">3</div>
           </String>
 
           <String>
-            <div ref="movin0" class="note_0">0</div>
-            <div ref="movin1" class="note_0">0</div>
+            <div ref="movin0" class="note_0 note">0</div>
+            <div ref="movin1" class="note_0 note">0</div>
           </String>
 
           <String></String>

@@ -4,16 +4,16 @@
         <h1 class="lvlh1">LEVELS</h1>
            <div class="whiteBorder">
               <div class="place">
-               <button class="lvl" id="gr" @click="green()">1</button><!-- navrh na aky styl by mohol fungovat FE-->
-               <button class="lvl">2</button>
-               <button class="lvl">3</button>
-               <button class="lvl">4</button>
-               <button class="lvl">5</button>
-               <button class="lvl">6</button>
-               <button class="lvl">7</button>
-               <button class="lvl">8</button>
-               <button class="lvl">9</button>
-               <button class="lvl tablet">10</button>
+               <button class="lvl" ref="gr1" @click="green(this.$refs.gr1)">1</button>
+               <button class="lvl" ref="gr2" @click="green(this.$refs.gr2)">2</button>
+               <button class="lvl" ref="gr3" @click="green(this.$refs.gr3)">3</button>
+               <button class="lvl" ref="gr4" @click="green(this.$refs.gr4)">4</button>
+               <button class="lvl" ref="gr5" @click="green(this.$refs.gr5)">5</button>
+               <button class="lvl" ref="gr6" @click="green(this.$refs.gr6)">6</button>
+               <button class="lvl" ref="gr7" @click="green(this.$refs.gr7)">7</button>
+               <button class="lvl" ref="gr8" @click="green(this.$refs.gr8)">8</button>
+               <button class="lvl" ref="gr9" @click="green(this.$refs.gr9)">9</button>
+               <button class="lvl tablet" ref="gr10" @click="green(this.$refs.gr10)">10</button>
               </div>
               <div class="playPosition">
               <button class="play">PLAY</button>
@@ -38,8 +38,7 @@ export default{
       }
    },
    methods:{
-     green(){
-        var g = document.getElementById("gr");
+     green(g){
         g.style.background = ("green");
      }
    }

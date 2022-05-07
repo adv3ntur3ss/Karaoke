@@ -41,6 +41,4 @@ export default{
      }
    }
 }
-
-/* eslint-disable */
 </script>

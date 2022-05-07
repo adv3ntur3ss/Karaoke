@@ -1,13 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-<<<<<<< HEAD
-
-=======
 .bg-green{
   background-color: green !important;
 }
->>>>>>> 1184d965c417152072ba87f596a8ed01c4d7796d
 .bg-gradient {
     background: linear-gradient( -45deg, rgb(243, 63, 153), #bd2672, #96068e, #6e0660);
 }
@@ -118,59 +114,12 @@
   width: 100%;
   height: auto;
 }
-<<<<<<< HEAD
-=======
-.level {
-    background-color: #e61313;
-    position: relative;
-    border: 1px solid black;
-    border-radius: 100%;
-    width: 100px;
-    height: 100px;
-    margin: 2rem 0 2rem 10rem;
-    font-size: 50px;
-    box-shadow: 9px 8px #0e0d0d;
-}
-
-.play-button {
-    margin: 1rem 0 3rem 0;
-    font-size: 50px;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 30px;
-    padding: 10px;
-    background: linear-gradient(
-      -45deg,
-      rgb(243, 63, 153),
-      #bd2672,
-      #96068e,
-      #6e0660
-    );
-    box-shadow: 9px 8px #0e0d0d;
-}
-.play-button-position{
-    text-align: center;
-}
-
-
-
-.next-levels {
-    width: 100px;
-    height: auto;
-    transform: rotate(180deg);
-    float: right;
-    margin-top: -18.5rem;
-}
-
-
-
->>>>>>> 1184d965c417152072ba87f596a8ed01c4d7796d
 .levels-title {
     font-size: 80px;
     margin-top: -35px;
     text-align: center;
     color: white;
     text-shadow: 7px 7px rgb(33, 31, 31);
-<<<<<<< HEAD
 }
 
 .level-design {
@@ -180,13 +129,6 @@
     height: 150px;
     margin: 1rem 0.5rem 2rem 5rem;
     font-size: 50px;
-=======
-  }
-  .hide {
-    font-size: 60px;
-    text-align: center;
-    opacity: 0%;
->>>>>>> 1184d965c417152072ba87f596a8ed01c4d7796d
 }
 
 .next-levels {

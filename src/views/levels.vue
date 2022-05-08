@@ -2,7 +2,7 @@
 <div class="bg-gradient">
 <cHeader/>
         <h1 class="levels-title">LEVELS</h1>
-           <div>
+           <div class="center-screen-on-devices">
                <button class="level-design" id="gr" @click="green()"><img src="https://th.bing.com/th/id/R.8ced636f3075d2d9423b48bb9a68fb95?rik=3OYgMTR7784DtQ&pid=ImgRaw&r=0" alt=""></button><!-- navrh na aky styl by mohol fungovat FE-->
                <button class="level-design"><img src="https://th.bing.com/th/id/R.8ced636f3075d2d9423b48bb9a68fb95?rik=3OYgMTR7784DtQ&pid=ImgRaw&r=0" alt=""></button>
                <button class="level-design"><img src="https://th.bing.com/th/id/R.8ced636f3075d2d9423b48bb9a68fb95?rik=3OYgMTR7784DtQ&pid=ImgRaw&r=0" alt=""></button>
@@ -16,7 +16,7 @@
               </div>
                 <img class="next-levels" src="@/assets/images/arrow.png"> 
                 
-               <bottomBanner/>
+<bottomBanner/>
 </div>
       
              

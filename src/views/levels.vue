@@ -1,26 +1,22 @@
 <template>
-  <body class="rgb-background">
+  <div class="bg-gradient">
     <LayoutHeader />
-    <h1 class="lvlh1">LEVELS</h1>
-    <div class="whiteBorder">
+    <h1 class="levels-title">LEVELS</h1>
+    <div class="levels-position-bg">
       <div class="place">
           <button v-for="(item, index) in levels" :key="item.id"
-            class="lvl"
+            class="level"
             :class="{green: isActive=1}"
             @click="isActive=1"
           >
           {{index+1}}
           </button>
       </div>
-      <div class="playPosition">
-        <button class="play">PLAY</button>
+      <div class="play-button-position">
+        <button class="play-button">PLAY</button>
       </div>
     </div>
-    <div class="arrowPosition">
-      <a><img class="arrow" src="@/assets/images/arrow.png" /></a>
-    </div>
-    <h1 class="hide">.</h1>
-  </body>
+  </div>
 </template>
 <script>
 import LayoutHeader from "@/components/header.vue"

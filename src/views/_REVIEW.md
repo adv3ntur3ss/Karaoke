@@ -2,7 +2,7 @@
 [x] body????? (ked chces wrapper tak pouzi div)
 [x] nazov componentov vzdy velkym zaciatocnym pismenom
 [x] cHeader? nazov nema ziadny context
-[] css classes cez kebab-case nie cez camelCase
+[x] css classes cez kebab-case nie cez camelCase
 [x] odsadenia su naprd, pouzivat prittier
 [x] do css class by som nedaval nazov tagu, proste popisne nazvat ze co to meni alebo na co sa viaze, ak je to nadpis tak dat ze title alebo nieco
     - tiez nerobit take ze playPosition proste daj tam napr ze play-button alebo nieco take, nedavaj presne mena attributov do nazvu clase

@@ -9,6 +9,8 @@
     width: 100vw;
     height: 100vh;
     background: linear-gradient( -45deg, rgb(243, 63, 153), #bd2672, #96068e, #6e0660);
+    overflow-y: auto;
+    
 }
 
 .note {

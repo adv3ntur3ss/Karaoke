@@ -1,5 +1,5 @@
 <template>
-  <body class="m-0">
+  <div class="m-0">
     <div class="container w-screen h-screen font-sans">
       <section class="bg-gradient w-screen h-screen flex flex-col">
         <LayoutHeader />
@@ -49,7 +49,7 @@
         </div>
       </section>
     </div>
-  </body>
+  </div>
 </template>
 
 <script>

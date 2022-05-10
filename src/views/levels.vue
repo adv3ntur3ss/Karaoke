@@ -12,7 +12,7 @@
           -->
 
 <div class="bg-gradient">
-<cHeader/>
+<LayoutHeader/>
         <h1 class="levels-title">LEVELS</h1>
            <div class="center-screen-on-devices">
                <button class="level-design"><img src="https://th.bing.com/th/id/R.8ced636f3075d2d9423b48bb9a68fb95?rik=3OYgMTR7784DtQ&pid=ImgRaw&r=0"></button>
@@ -34,12 +34,12 @@
              
 </template>
 <script>
-import cHeader from "@/components/header.vue"
+import LayoutHeader from "@/components/header.vue"
 import bottomBanner from "@/components/footer.vue"
 
 export default{
    components:{
-      cHeader,
+      LayoutHeader,
       bottomBanner
    },
    data(){

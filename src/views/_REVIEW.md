@@ -13,12 +13,12 @@
 [] tu h1 s . na konci vyjebat a dat tam div s height nejakym a width: 100vw;
 [x] v scripte prazdne attribues mozes vyjebat
 [x] nazov green nedava vobec zmysel, methods sa maju nazyvat tym co robia, cize napriklad toggleSelected() alebo select()
-[] naco mas vue ked robis querySelector?? mas 1. ref co ale nebude tu pripada a mozes rovno pouzit v-model na premennu, do ktorej si iba nastavis ktore cislo sa ma zobrazit, potom kazdy button mude mat classu podmienkovo zobrazenu ze ci je active alebo nie (activeLevel == 1 napr) a v clicku bude mat ze @click="activeLevel = 1"
+[x] naco mas vue ked robis querySelector?? mas 1. ref co ale nebude tu pripada a mozes rovno pouzit v-model na premennu, do ktorej si iba nastavis ktore cislo sa ma zobrazit, potom kazdy button mude mat classu podmienkovo zobrazenu ze ci je active alebo nie (activeLevel == 1 napr) a v clicku bude mat ze @click="activeLevel = 1"
 [x] /* eslint-disable */ nedavat 😡 (ked tak si v .eslintrc.js nastav pravidla, ktore ti vadia)
 
 // gameplay
 
-[] zakomentovane veci vyjebat
+[x] zakomentovane veci vyjebat
 [x] zle zarovnane
 [x] string spravit bud ako component alebo si spravit v datach array stringova a cez v-for ich vykreslit pretoze maju vsetky rovnake attributes
 [x] znovu methods, hiddedState nie je popisne pre method, lebo ten nazov nie je akcia, ked tak uz updateHiddedState, ale najlepsie toggleHidden alebo pod

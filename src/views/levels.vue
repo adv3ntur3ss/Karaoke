@@ -28,19 +28,16 @@
               </div>
               <img class="next-levels" src="@/assets/images/arrow.png"> 
                 
-<bottomBanner/>
+
 </div>
       
              
 </template>
 <script>
 import LayoutHeader from "@/components/header.vue"
-import bottomBanner from "@/components/footer.vue"
-
 export default{
    components:{
       LayoutHeader,
-      bottomBanner
    },
    data(){
       return{

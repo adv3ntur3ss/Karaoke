@@ -1,13 +1,13 @@
 # 03.05 matija
-[] body????? (ked chces wrapper tak pouzi div)
+[x] body????? (ked chces wrapper tak pouzi div)
 [x] nazov componentov vzdy velkym zaciatocnym pismenom
 [x] cHeader? nazov nema ziadny context
 [] css classes cez kebab-case nie cez camelCase
 [x] odsadenia su naprd, pouzivat prittier
-[] do css class by som nedaval nazov tagu, proste popisne nazvat ze co to meni alebo na co sa viaze, ak je to nadpis tak dat ze title alebo nieco
+[x] do css class by som nedaval nazov tagu, proste popisne nazvat ze co to meni alebo na co sa viaze, ak je to nadpis tak dat ze title alebo nieco
     - tiez nerobit take ze playPosition proste daj tam napr ze play-button alebo nieco take, nedavaj presne mena attributov do nazvu clase
     - vsetky nazvy po anglicky davat v priebehovom (cize namiesto hide bude hidden)
-[] vsetky classes by malo byt jasne co menia / ovplyvnuju, ked ju nazves place tak ja netusim co to ma znamenat
+[x] vsetky classes by malo byt jasne co menia / ovplyvnuju, ked ju nazves place tak ja netusim co to ma znamenat
 [x] levels nech nejsu staticke ale maj bud v datach array a sprav v-for alebo nejlepsie nech sa z BE dotahuju
 [x] attributes ak su prazdne tak ich ani nedavat (href="" tam je)
 [] tu h1 s . na konci vyjebat a dat tam div s height nejakym a width: 100vw;

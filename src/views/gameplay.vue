@@ -1,7 +1,7 @@
 <template>
   <body class="m-0">
     <div class="container w-screen h-screen font-sans">
-      <section class="rgb-background w-screen h-screen flex flex-col">
+      <section class="bg-gradient w-screen h-screen flex flex-col">
         <LayoutHeader />
         <div class="w-screen h-[150px] py-9 text-center font-semibold text-7xl">
           {{ timerCount }}

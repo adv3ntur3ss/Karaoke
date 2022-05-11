@@ -11,23 +11,21 @@
             class="h-80 w-6 bg-cyan-300 absolute opacity-75 left-[13vw] top-[160px] rounded-lg"
           ></div>
 
-          <String>
-            <div ref="movin3" class="note_3 note">3</div>
-            <div ref="movin2" class="note_3 note">3</div>
-          </String>
+          <GuitarString1></GuitarString1>
 
-          <String>
+          <div id="string" class="h-[24px] w-screen my-[8px] py-2 relative">
+            <div class="h-[8px] w-screen bg-slate-300"></div>
             <div ref="movin0" class="note_0 note">0</div>
             <div ref="movin1" class="note_0 note">0</div>
-          </String>
+          </div>
 
-          <String></String>
+          <GuitarString3></GuitarString3>
 
-          <String></String>
+          <GuitarString4></GuitarString4>
 
-          <String></String>
+          <GuitarString5></GuitarString5>
 
-          <String></String>
+          <GuitarString6></GuitarString6>
         </div>
         <div class="h-10 w-screen my-6 text-center">
           <button
@@ -54,12 +52,22 @@
 
 <script>
 import LayoutHeader from "@/components/header.vue"
-import String from "@/components/string.vue"
+import GuitarString1 from "@/components/twinkle-level/string1.vue"
+// import GuitarString2 from "@/components/twinkle-level/string2.vue"
+import GuitarString3 from "@/components/twinkle-level/string3.vue"
+import GuitarString4 from "@/components/twinkle-level/string4.vue"
+import GuitarString5 from "@/components/twinkle-level/string5.vue"
+import GuitarString6 from "@/components/twinkle-level/string6.vue"
 
 export default {
   components: {
     LayoutHeader,
-    String,
+    GuitarString1,
+    // GuitarString2,
+    GuitarString3,
+    GuitarString4,
+    GuitarString5,
+    GuitarString6,
   },
   data() {
     return {
@@ -98,10 +106,10 @@ export default {
       console.log(this.device)
       this.playAudio()
       // this.compareSound()
-      setTimeout(() => this.move(this.$refs.movin0), 430)
-      setTimeout(() => this.move(this.$refs.movin1), 800)
-      setTimeout(() => this.move(this.$refs.movin2), 1500)
-      setTimeout(() => this.move(this.$refs.movin3), 2000)
+        setTimeout(() => this.move(this.$refs.movin0), 430)
+        setTimeout(() => this.move(this.$refs.movin1), 800)
+        // setTimeout(() => this.move(this.$refs.movin2), 1500)
+        // setTimeout(() => this.move(this.$refs.movin3), 2000)
     },
     playAudio() {
       this.audio = new Audio(require("@/assets/audio/twinkle.mp3"))

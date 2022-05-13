@@ -8,7 +8,7 @@
         </div>
         <div class="w-screen h-[240px] bg-stone-800 flex flex-col">
           <div
-            class="h-80 w-6 bg-cyan-300 absolute opacity-75 left-[13vw] top-[160px] rounded-lg"
+            class="h-80 w-6 bg-cyan-300 absolute opacity-75 left-[13vw] top-[200px] rounded-lg"
           ></div>
 
           <GuitarString1></GuitarString1>

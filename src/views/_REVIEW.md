@@ -1,12 +1,12 @@
 # 10.05 matija
-[] zakomentovany kod odjebat
+[x] zakomentovany kod odjebat
 [] <button class="level-design"><img src="https://th.bing.com/th/id/R.8ced636f3075d2d9423b48bb9a68fb95?rik=3OYgMTR7784DtQ&pid=ImgRaw&r=0"></button> dogrcam sa, normalne v data si spravit array kde si najebes jednotlive potrebne veci a potom iba cez v-for si ich vyrenderujes
-[] prazdne data?? vydrbat to co je prazdne
-[] neviem ci by som zrovna reserved keyword daval ako nazov componentu :D mozno ze GuitarString?
+[x] prazdne data?? vydrbat to co je prazdne
+[x] neviem ci by som zrovna reserved keyword daval ako nazov componentu :D mozno ze GuitarString?
 [] urcite by som nedadval nazov refu ze movin3, note alebo nieco tak by som dal, a index nemozes doplnat rucne ale musi byt dynamicky generovany
 [] Strings tiez cez v-for more nie to mat 10x napastovane iba pod seba
-[] changeValue() sa preco tak vola ked to spusta timer?
-[] setTimeout(() => this.move(this.$refs.movin0), 430) toto je tiez kokotina mat 10x pod sebou ale asi sa caka na BE my guess
+[x] changeValue() sa preco tak vola ked to spusta timer?
+[yes] setTimeout(() => this.move(this.$refs.movin0), 430) toto je tiez kokotina mat 10x pod sebou ale asi sa caka na BE my guess
 
 
 # 03.05 matija

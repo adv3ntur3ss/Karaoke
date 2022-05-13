@@ -31,7 +31,7 @@
           <button
             class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
             v-if="this.startIsHidden == false"
-            @click="toggleHiddenState(), changeValue()"
+            @click="toggleHiddenState(), startTimer()"
           >
             start
           </button>
@@ -89,7 +89,7 @@ export default {
     toggleHiddenState() {
       this.startIsHidden = true
     },
-    changeValue() {
+    startTimer() {
       let timer = setInterval(() => {
         this.timerCount--
         console.log(this.timerCount)

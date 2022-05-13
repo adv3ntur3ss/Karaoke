@@ -5,10 +5,8 @@
     <h1 class="levels-title">LEVELS</h1>
     <div class="center-screen-on-devices">
       <button v-for="item in levels" :key="item.id" class="level-design">
-        <a href="/gameplay">
-          <img
-            src="https://th.bing.com/th/id/R.8ced636f3075d2d9423b48bb9a68fb95?rik=3OYgMTR7784DtQ&pid=ImgRaw&r=0"
-        /></a>
+        <h4>{{ item.name }}</h4>
+        <a :href="item.link"> <img :src="item.image" /></a>
       </button>
     </div>
     <img class="next-levels" src="@/assets/images/arrow.png" />
@@ -22,24 +20,69 @@ export default {
   },
   data() {
     return {
-      levels: [
-        { number: 1 },
-        { number: 2 },
-        { number: 3 },
-        { number: 4 },
-        { number: 5 },
-        { number: 6 },
-        { number: 7 },
-        { number: 8 },
-        { number: 9 },
-        { number: 10 },
-      ],
+      levels: {
+        level1: {
+          image:
+            "https://th.bing.com/th/id/R.8ced636f3075d2d9423b48bb9a68fb95?rik=3OYgMTR7784DtQ&pid=ImgRaw&r=0",
+          name: "Twinkle",
+          link: "#/gameplay"
+        },
+        level2: {
+          image:
+            "https://th.bing.com/th/id/R.8ced636f3075d2d9423b48bb9a68fb95?rik=3OYgMTR7784DtQ&pid=ImgRaw&r=0",
+          name: "TBD",
+          link: "#/TBD"
+        },
+        level3: {
+          image:
+            "https://th.bing.com/th/id/R.8ced636f3075d2d9423b48bb9a68fb95?rik=3OYgMTR7784DtQ&pid=ImgRaw&r=0",
+          name: "TBD",
+          link: "#/TBD"
+        },
+        level4: {
+          image:
+            "https://th.bing.com/th/id/R.8ced636f3075d2d9423b48bb9a68fb95?rik=3OYgMTR7784DtQ&pid=ImgRaw&r=0",
+          name: "TBD",
+          link: "#/TBD"
+        },
+        level5: {
+          image:
+            "https://th.bing.com/th/id/R.8ced636f3075d2d9423b48bb9a68fb95?rik=3OYgMTR7784DtQ&pid=ImgRaw&r=0",
+          name: "TBD",
+          link: "#/TBD"
+        },
+        level6: {
+          image:
+            "https://th.bing.com/th/id/R.8ced636f3075d2d9423b48bb9a68fb95?rik=3OYgMTR7784DtQ&pid=ImgRaw&r=0",
+          name: "TBD",
+          link: "#/TBD"
+        },
+        level7: {
+          image:
+            "https://th.bing.com/th/id/R.8ced636f3075d2d9423b48bb9a68fb95?rik=3OYgMTR7784DtQ&pid=ImgRaw&r=0",
+          name: "TBD",
+          link: "#/TBD"
+        },
+        level8: {
+          image:
+            "https://th.bing.com/th/id/R.8ced636f3075d2d9423b48bb9a68fb95?rik=3OYgMTR7784DtQ&pid=ImgRaw&r=0",
+          name: "TBD",
+          link: "#/TBD"
+        },
+       level9: {
+          image:
+            "https://th.bing.com/th/id/R.8ced636f3075d2d9423b48bb9a68fb95?rik=3OYgMTR7784DtQ&pid=ImgRaw&r=0",
+          name: "TBD",
+          link: "#/TBD"
+        },
+        level10: {
+          image:
+            "https://th.bing.com/th/id/R.8ced636f3075d2d9423b48bb9a68fb95?rik=3OYgMTR7784DtQ&pid=ImgRaw&r=0",
+          name: "TBD",
+          link: "#/TBD"
+        },
+      },
     }
-  },
-  methods: {
-    green(g) {
-      g.style.background = "green"
-    },
   },
 }
 </script>

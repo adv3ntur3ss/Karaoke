@@ -208,7 +208,7 @@ export default {
       setTimeout(() => {
         this.recorder.stop()
         this.listenHidden = 1
-      }, 10000)
+      }, 19000)
       setTimeout(() => {
         console.log(this.audioChunks)
       }, 5100)

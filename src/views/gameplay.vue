@@ -11,12 +11,40 @@
             class="h-80 w-6 bg-cyan-300 absolute opacity-75 left-[13vw] top-[200px] rounded-lg"
           ></div>
 
-          <GuitarString1></GuitarString1>
+          <div id="string" class="h-[24px] w-screen my-[8px] py-2 relative">
+            <div class="h-[8px] w-screen bg-slate-300"></div>
+            <div ref="movin2" class="note_0 note">3</div>
+            <div ref="movin3" class="note_0 note">3</div>
+            <div ref="movin4" class="note_5 note">5</div>
+            <div ref="movin5" class="note_5 note">5</div>
+            <div ref="movin6" class="note_3 note">5</div>
+            <div ref="movin7" class="note_3 note">5</div>
+            <div ref="movin8" class="note_1 note">1</div>
+            <div ref="movin9" class="note_1 note">1</div>
+            <div ref="movin10" class="note_0 note">0</div>
+            <div ref="movin11" class="note_0 note">0</div>
+            <div ref="movin17" class="note_3 note">3</div>
+            <div ref="movin18" class="note_3 note">3</div>
+            <div ref="movin19" class="note_5 note">5</div>
+            <div ref="movin20" class="note_5 note">5</div>
+            <div ref="movin21" class="note_3 note">3</div>
+            <div ref="movin22" class="note_3 note">3</div>
+            <div ref="movin23" class="note_0 note">0</div>
+            <div ref="movin24" class="note_0 note">0</div>
+          </div>
 
           <div id="string" class="h-[24px] w-screen my-[8px] py-2 relative">
             <div class="h-[8px] w-screen bg-slate-300"></div>
             <div ref="movin0" class="note_0 note">0</div>
             <div ref="movin1" class="note_0 note">0</div>
+            <div ref="movin12" class="note_3 note">3</div>
+            <div ref="movin13" class="note_3 note">3</div>
+            <div ref="movin14" class="note_1 note">1</div>
+            <div ref="movin15" class="note_1 note">1</div>
+            <div ref="movin16" class="note_1 note">1</div>
+            <div ref="movin25" class="note_3 note">3</div>
+            <div ref="movin26" class="note_3 note">3</div>
+            <div ref="movin27" class="note_1 note">1</div>
           </div>
 
           <GuitarString3></GuitarString3>
@@ -52,7 +80,7 @@
 
 <script>
 import LayoutHeader from "@/components/header.vue"
-import GuitarString1 from "@/components/twinkle-level/string1.vue"
+// import GuitarString1 from "@/components/twinkle-level/string1.vue"
 // import GuitarString2 from "@/components/twinkle-level/string2.vue"
 import GuitarString3 from "@/components/twinkle-level/string3.vue"
 import GuitarString4 from "@/components/twinkle-level/string4.vue"
@@ -62,7 +90,7 @@ import GuitarString6 from "@/components/twinkle-level/string6.vue"
 export default {
   components: {
     LayoutHeader,
-    GuitarString1,
+    // GuitarString1,
     // GuitarString2,
     GuitarString3,
     GuitarString4,
@@ -106,17 +134,42 @@ export default {
       console.log(this.device)
       this.playAudio()
       // this.compareSound()
-        setTimeout(() => this.move(this.$refs.movin0), 430)
-        setTimeout(() => this.move(this.$refs.movin1), 800)
-        // setTimeout(() => this.move(this.$refs.movin2), 1500)
-        // setTimeout(() => this.move(this.$refs.movin3), 2000)
+      setTimeout(() => this.move(this.$refs.movin0), 430)
+      setTimeout(() => this.move(this.$refs.movin1), 800)
+      setTimeout(() => this.move(this.$refs.movin2), 1500)
+      setTimeout(() => this.move(this.$refs.movin3), 2000)
+      setTimeout(() => this.move(this.$refs.movin4), 2500)
+      setTimeout(() => this.move(this.$refs.movin5), 3000)
+      setTimeout(() => this.move(this.$refs.movin6), 3500)
+      setTimeout(() => this.move(this.$refs.movin7), 4000)
+      setTimeout(() => this.move(this.$refs.movin8), 4500)
+      setTimeout(() => this.move(this.$refs.movin9), 5000)
+      setTimeout(() => this.move(this.$refs.movin10), 5500)
+      setTimeout(() => this.move(this.$refs.movin11), 6000)
+      setTimeout(() => this.move(this.$refs.movin12), 6500)
+      setTimeout(() => this.move(this.$refs.movin13), 7000)
+      setTimeout(() => this.move(this.$refs.movin14), 7500)
+      setTimeout(() => this.move(this.$refs.movin15), 8000)
+      setTimeout(() => this.move(this.$refs.movin16), 8500)
+      setTimeout(() => this.move(this.$refs.movin17), 9000)
+      setTimeout(() => this.move(this.$refs.movin18), 9500)
+      setTimeout(() => this.move(this.$refs.movin19), 10000)
+      setTimeout(() => this.move(this.$refs.movin20), 10500)
+      setTimeout(() => this.move(this.$refs.movin21), 11000)
+      setTimeout(() => this.move(this.$refs.movin22), 11500)
+      setTimeout(() => this.move(this.$refs.movin23), 12000)
+      setTimeout(() => this.move(this.$refs.movin24), 12500)
+      setTimeout(() => this.move(this.$refs.movin25), 13000)
+      setTimeout(() => this.move(this.$refs.movin26), 13500)
+      setTimeout(() => this.move(this.$refs.movin27), 14000)
+
     },
     playAudio() {
       this.audio = new Audio(require("@/assets/audio/twinkle.mp3"))
       this.audio.play()
       setTimeout(() => {
         this.audio.pause()
-      }, 10000)
+      }, 19000)
     },
     move(square) {
       let x = 95.5

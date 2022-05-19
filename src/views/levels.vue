@@ -23,7 +23,7 @@ export default {
       levels: {
         level1: {
           image:
-            "https://th.bing.com/th/id/R.8ced636f3075d2d9423b48bb9a68fb95?rik=3OYgMTR7784DtQ&pid=ImgRaw&r=0",
+            "https://s.mxmcdn.net/images-storage/albums/4/6/7/7/5/4/27457764_350_350.jpg",
           name: "Twinkle",
           link: "#/gameplay"
         },

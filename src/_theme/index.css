@@ -10,7 +10,6 @@
     height: 100vh;
     background: linear-gradient( -45deg, rgb(243, 63, 153), #bd2672, #96068e, #6e0660);
     overflow-y: auto;
-    
 }
 
 .note {
@@ -99,7 +98,7 @@
 
 .header-background {
     width: 100%;
-    height: 60px;
+    height: auto;
 }
 
 .header-title {
@@ -207,6 +206,19 @@
         height: 150px;
         margin: 2rem 1rem 2em 0.5rem;
     }
+    .header-background {
+        position: absolute;
+        top: -27%;
+        width: 100%;
+        height: auto;
+    }
+    .logo {
+        position: absolute;
+        left: 46.5%;
+        top: 6%;
+        width: 70px;
+        height: 70px;
+    }
     .next-levels {
         width: 80px;
         height: auto;
@@ -232,12 +244,15 @@
         height: 90px;
     }
     .header-background {
+        position: absolute;
+        top: -37%;
         width: 100%;
-        height: 120px;
+        height: auto;
     }
     .logo {
-        margin-top: -100px;
-        margin-left: 5px;
+        position: absolute;
+        left: 47.5%;
+        top: 12%;
         width: 70px;
         height: 70px;
     }
@@ -270,12 +285,15 @@
         height: 90px;
     }
     .header-background {
+        position: absolute;
+        top: -55%;
         width: 100%;
-        height: 120px;
+        height: auto;
     }
     .logo {
-        margin-top: -100px;
-        margin-left: 5px;
+        position: absolute;
+        left: 48%;
+        top: 12%;
         width: 70px;
         height: 70px;
     }
